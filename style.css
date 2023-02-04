@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
+    background-color: hsl(84, 100%, 59%);
+    color: black;
+}
+.container{
+    margin:100px auto;
+    max-width: 600px;
+    height: 530px;
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-shadow: 15px 15px 30px green,-15px -15px 30px green;
+}
+.card-image{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.card-image img{
+    height: 200px;
+    width: 200px;
+}
+.card-details h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.card-details .one{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+}
+.card-details .two{
+    text-align: justify;
+    font-weight: 300;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(173, 255, 47);
+    padding: 5px 12px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.container a:hover{
+    background-color:rgb(255, 215, 0);
+}
+.container a:active{
+    outline: 10px solid gold;
+}
